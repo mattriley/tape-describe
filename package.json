@@ -1,0 +1,18 @@
+{
+    "name": "tape-describe",
+    "version": "1.0.0",
+    "description": "describe blocks for your tape tests",
+    "main": "index.js",
+    "keywords": [
+        "test",
+        "tape",
+        "describe"
+    ],
+    "author": "Matt Riley",
+    "license": "MIT",
+    "homepage": "https://github.com/mattriley/tape-describe",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mattriley/tape-describe.git"
+    }
+}
