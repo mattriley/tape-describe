@@ -1,8 +1,8 @@
-module.exports = tape => (subject, callback) => {
-    const testWith = func => (name, ...args) => func(`${subject}: ${name}`, ...args);
-    const test = testWith(tape);
-    const only = testWith(tape.only);
-    const skip = testWith(tape.skip);
+module.exports = (tape, separator=': ') => (subject, callback) => {
+    const decorate = func => (name, ...args) => func([subject, name].join(separator), ...args);
+    const test = decorate(tape);
+    const only = decorate(tape.only);
+    const skip = decorate(tape.skip);
     Object.assign(test, tape, { only, skip });
     if (callback) callback(test);
     return test;
