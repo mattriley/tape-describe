@@ -8,9 +8,11 @@ Please note: tape-describe _does not_ attempt to produce nested TAP output.
 
 ## Install
 
-`npm i tape-describe`
+```
+npm install tape-describe --save-dev
+```
 
-tape-describe has zero dependencies. Default usage requires `tape` to be installed.
+Requires `tape` to be installed.
 
 ## Usage
 
