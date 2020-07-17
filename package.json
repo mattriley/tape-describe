@@ -1,7 +1,7 @@
 {
     "name": "tape-describe",
     "version": "1.0.1",
-    "description": "describe blocks for your tape tests",
+    "description": "Describe blocks for your tape tests",
     "main": "index.js",
     "keywords": [
         "test",

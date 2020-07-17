@@ -1,6 +1,6 @@
 # tape-describe
 
-_describe_ blocks for your _tape_ tests.
+Describe blocks for your [tape](https://github.com/substack/tape) tests.
 
 tape-describe is a decorator for tape that prefixes each test name with a given description.
 
@@ -50,11 +50,4 @@ test('bar', t => {
     t.assert(true);
     t.end();
 });
-```
-
-## Chaining decorators
-
-```js
-const otherTapeDecorator = require('other-tape-decorator');
-const describe = require('tape-describe/describe')(otherTapeDecorator);
 ```
