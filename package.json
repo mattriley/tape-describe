@@ -16,6 +16,6 @@
         "url": "git://github.com/mattriley/tape-describe.git"
     },
     "dependencies": {
-        "tape-decorate": "^1.0.1"
+        "tape-decorate": "^1.0.2"
     }
 }
